@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg*
+
+# Environments
+.venv/
+venv/
+.env
+.env.*
+
+# Editors / tooling
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Build / cache
+.pytest_cache/
+.mypy_cache/
+
+# Streamlit
+.streamlit/
+
+# Data outputs
+*.xlsx
+Content_Calendar.xlsx
+export*/
+logs/
+
+# Local data (keep sample company_info.csv tracked)
+data/*.xlsx
+data/*.tmp
+data/*.bak
+!data/company_info.csv

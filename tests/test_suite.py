@@ -39,9 +39,10 @@ def test_post_generation():
 
     persona = Persona(id="test_user", name="Test User", bio="I love testing", traits="Precise")
     keyword = "Unit Testing"
-    subreddit = "r/programming"
+    subreddit = "programming"
+    keyword_id = "unit_testing"
     
-    post = generate_post(persona, keyword, subreddit)
+    post = generate_post(persona, keyword, subreddit, keyword_id)
     
     assert isinstance(post, RedditPost)
     assert post.author_id == "test_user"

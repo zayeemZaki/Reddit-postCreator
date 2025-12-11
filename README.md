@@ -1,5 +1,7 @@
 # Social Campaign Scheduler
 
+Live App: https://reddit-postcreator.streamlit.app/
+
 A streamlined Streamlit app for generating persona-driven Reddit posts, scheduled content calendars, and downloadable Excel outputs.
 
 ---
@@ -105,14 +107,3 @@ data/                    # Sample/input CSVs
 - Streamlit not found: `pip install streamlit`
 - Empty outputs: verify your CSV columns match the expected headers
 
----
-
-## License
-
-MIT License
-
----
-
-## Contact
-
-For questions or issues, open a GitHub issue or email your maintainer contact.
